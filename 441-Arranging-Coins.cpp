@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int arrangeCoins(int n) {
+    long long arrangeCoins(long long n) {
         long long left=1,right=n,mid=0;
         while(left<=right){
             mid=(left+right)/2;
